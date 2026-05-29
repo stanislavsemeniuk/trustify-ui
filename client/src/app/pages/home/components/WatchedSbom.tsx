@@ -24,7 +24,7 @@ import {
 import TimesIcon from "@patternfly/react-icons/dist/esm/icons/times-icon";
 import text from "@patternfly/react-styles/css/utilities/Text/text";
 
-import { LoadingWrapper } from "@app/components/LoadingWrapper";
+import { LoadingWrapper } from "@tsd-ui/core";
 import { useFetchSBOMById, useFetchSBOMs } from "@app/queries/sboms";
 import { Paths } from "@app/Routes";
 

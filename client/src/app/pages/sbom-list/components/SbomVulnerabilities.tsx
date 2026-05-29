@@ -2,7 +2,7 @@ import type React from "react";
 
 import { Skeleton } from "@patternfly/react-core";
 
-import { LoadingWrapper } from "@app/components/LoadingWrapper";
+import { LoadingWrapper } from "@tsd-ui/core";
 import { TableCellError } from "@app/components/TableCellError";
 import { VulnerabilityGallery } from "@app/components/VulnerabilityGallery";
 import { useVulnerabilitiesOfSbom } from "@app/hooks/domain-controls/useVulnerabilitiesOfSbom";

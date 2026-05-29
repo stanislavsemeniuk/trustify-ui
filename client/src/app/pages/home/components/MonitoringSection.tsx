@@ -33,7 +33,7 @@ import { t_global_text_color_link_default } from "@patternfly/react-tokens";
 import { severityList } from "@app/api/model-utils";
 import type { ExtendedSeverity } from "@app/api/models";
 import type { SbomHead } from "@app/client";
-import { LoadingWrapper } from "@app/components/LoadingWrapper";
+import { LoadingWrapper } from "@tsd-ui/core";
 import { useVulnerabilitiesOfSboms } from "@app/hooks/domain-controls/useVulnerabilitiesOfSbom";
 import { useFetchAdvisories } from "@app/queries/advisories";
 import { useFetchSBOMs } from "@app/queries/sboms";

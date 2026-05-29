@@ -1,6 +1,6 @@
 import React from "react";
 
-import { LoadingWrapper } from "@app/components/LoadingWrapper";
+import { LoadingWrapper } from "@tsd-ui/core";
 import {
   Bullseye,
   Card,
